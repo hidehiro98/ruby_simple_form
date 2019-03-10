@@ -16,9 +16,6 @@ srv.mount_proc '/' do |req, res|
 end
 
 srv.mount_proc '/params' do |req, res|
-  # File.open("index.html") do |f|
-  #   res.body = f.read
-  # end
   res.body = req.query['a']
 end
 
