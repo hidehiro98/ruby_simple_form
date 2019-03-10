@@ -5,6 +5,7 @@
 
 ## How to use
 - `git clone git@github.com:hidehiro98/ruby_simple_form.git`
+- `ruby_simple_form`
 - `ruby webrick.rb`
 - access these addresses
   - http://localhost:8080/
